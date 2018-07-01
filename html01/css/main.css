@@ -1,0 +1,88 @@
+p {
+    color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+body {
+    background-color:white;
+}
+
+a:hover {
+    color:greenyellow;
+}
+
+body.content p::first-letter {
+    color:darkred;
+    
+}
+
+body.content p {
+    text-indent: 30px
+    
+}
+
+h3 {
+    color: darkslateblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+img.footerimg {
+    align-content: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+table {
+    width: 100%;
+    border: 1px;
+    border-color: black;
+}
+td {
+    border: 1px;
+    border-color: black;  
+}
+
+td.time{
+    text-align: right;
+}
+table thead {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+table tfoot {
+    background-color: darkgrey;
+    color: black;
+    text-align: right;
+    font-weight: bold;
+}
+table tbody {
+    color: black;
+    text-align: left;
+}
+table caption {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+tr.even{
+    background-color: white;
+    color: blue;
+}
+tr.noteven{
+    background-color: lightgrey;
+    color: blue;
+}
+
+iframe {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 170px;
+}

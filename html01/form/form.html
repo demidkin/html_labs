@@ -1,29 +1,34 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<title>Форма обратной связи</title>
-	</head>
-	<body>
-		<h1>Давайте познакомимся</h1>
-		<!-- Начало формы -->
-		Ваше имя: <!-- Текстовое поле -->
-		Ваша фамилия: <!-- Текстовое поле -->
-		Кто вы?  <!-- Радио кнопки -->
-			мужчина <!-- не надо оборачивать в label --> 
-			женщина <!-- не надо оборачивать в label -->
-		Чем занимаетесь?  <!-- Выпадающий список -->
-			школьник
-			студент
-			безработный
-			рабочий класс
-			офисный планктон
-			креативный класс
-			интеллигент
-			олигарх
+<head>
+	<title>Форма обратной связи</title>
+</head>
+<body>
+	<h1>Давайте познакомимся</h1>
+	<form action="">
+		<label for="name">Ваше имя: </lable> <input type="text" name="name" id="name"/> <br />
+		<label for="sename">Ваша фамилия: </label> <input type="text" name="sename" id="sename"/> <br />
+		<fieldset>Кто вы?</label>
+			<br />
+			<input type="radio" name="gender" value="male"/><span>Мужчина</span><br /> <!-- не надо оборачивать в label --> 
+			<input type="radio" name="gender" value="female"/><span>Женщина</span><br /> <!-- не надо оборачивать в label -->
+		</fieldset>
+		<span>Чем занимаетесь?</span><br />
+		<select name="hobby">
+			<option value="0">школьник<option>
+			<option value="1">студент<option>
+			<option value="2">безработный<option>
+			<option value="3">рабочий класс<option>
+			<option value="4">офисный планктон<option>
+			<option value="5">креативный класс<option>
+			<option value="6">интеллигент<option>
+			<option value="7">олигарх<option>
+		</select>
 		Напишите коротко о себе:  <!-- Текст -->
 		Я не буду воровать записи курсов <!-- Флажок -->
 		Послать отзыв <!-- Кнопка для отправки формы -->
 		Очистить форму	<!-- Кнопка для очистки формы -->
 		<!-- Конец формы -->
-	</body>
+	</form>	
+</body>
 </html>
